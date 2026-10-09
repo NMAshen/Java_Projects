@@ -6,6 +6,19 @@ public class variable {
 
     public static void main(String [] args){
 
-        System.out.print("Hello World");
+        int age = 19; // Store whole numbers.
+
+        double price = 50.4; // Store decimal numbers.
+
+        char result = 'A'; // Store one character .
+                           // Use single quatation marks f  or value (''). 
+
+        boolean isStudent = true; //contains boolean True or false
+
+        System.out.println("your age is: " + age);
+        System.out.println("Youre item price is : $" + price);
+        System.out.println("Youre result is : " + result);
+        System.out.println("Is Student : " + isStudent);
     }
+
 }
